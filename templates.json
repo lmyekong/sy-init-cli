@@ -1,0 +1,10 @@
+{
+    "admin": {
+        "name": "admin",
+        "path": "hgithub:lmyekong/sy-init-template-admin"
+    },
+    "user": {
+        "name": "user",
+        "path": "github:lmyekong/sy-init-template-user"
+    }
+}

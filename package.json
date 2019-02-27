@@ -1,0 +1,30 @@
+{
+  "name": "sy-init-cli",
+  "version": "1.10.0",
+  "description": "盛业集团-前端工程，项目脚手架",
+  "keywords": [
+    "vue",
+    "sy-cli",
+    "sy-init-cli"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "sy-init": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lmyekong/sy-init-cli.git"
+  },
+  "preferGlobal": true,
+  "author": "zero zhu [135055506@qq.com]",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.2",
+    "ora": "^3.1.0"
+  }
+}
