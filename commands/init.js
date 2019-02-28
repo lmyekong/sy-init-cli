@@ -27,7 +27,7 @@ const question = [
     type: 'input',
     name: 'name',
     message: '项目名称',
-    default: typeof option === 'string' ? option : 'sy-template',
+    default: typeof option === 'string' ? option : 'sy-project',
     filter (val) {
       return val.trim()
     },

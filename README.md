@@ -15,7 +15,7 @@ $ npm install -g sy-init-cli
 
 ``` bash
 # 初始化项目，添加依赖
-sy-init init
+sy-cli init
 
 yarn add
 cnpm install
