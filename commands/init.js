@@ -71,7 +71,8 @@ module.exports = prompt(question).then(({templateName, name, description, author
   const spinner = ora('Downloading ' + templateName + ' please wait...' + gitPlace );
 
   spinner.start();
-  download(`${gitPlace}`, `./${projectName}`, (err) => {
+  // download(`${gitPlace}`, `./${projectName}`, (err) => {
+    download(`${gitPlace}`, `${projectName}`, {clone: true}, (err) => {
     if (err) {
       console.log(chalk.red(err));
       process.exit()

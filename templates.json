@@ -1,10 +1,14 @@
 {
     "admin": {
         "name": "admin",
-        "path": "hgithub:lmyekong/sy-init-template-admin"
+        "path": "github:lmyekong/sy-init-template-admin"
     },
     "user": {
         "name": "user",
         "path": "github:lmyekong/sy-init-template-user"
+    },
+    "test": {
+        "name": "user",
+        "path": "http://192.168.2.174:zerozhu/test#master"
     }
 }
