@@ -1,14 +1,14 @@
 {
-    "admin": {
-        "name": "admin",
-        "path": "github:lmyekong/sy-init-template-admin"
+    "framework": {
+        "name": "framework",
+        "path": "http://192.168.2.174:kinso/framework"
     },
-    "user": {
-        "name": "user",
-        "path": "github:lmyekong/sy-init-template-user"
+    "subitem": {
+        "name": "subitem",
+        "path": "http://192.168.2.174:kinso/subitem"
     },
-    "test": {
-        "name": "user",
-        "path": "http://192.168.2.174:zerozhu/test#master"
+    "onefold": {
+        "name": "onefold",
+        "path": "http://192.168.2.174:kinso/onefold"
     }
 }
